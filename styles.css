@@ -1,0 +1,422 @@
+body {
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #aaaaaa;
+  line-height: 2;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+
+/*TITLE SECTION*/
+.container-fluid {
+  padding: 4% 10% 7%;
+  /*padding-top padding-left&right padding-bottom*/
+}
+
+#title {
+  text-align: left;
+}
+
+.title-image {
+  width: 35%;
+  margin: 3% 3% 8% 8%;
+  position: absolute;
+  transform: rotate(12deg);
+  /*rotates image 15 degrees to the right */
+}
+
+.big-heading {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 2;
+}
+
+.all-you-need {
+  font-weight: bold;
+}
+
+.download-button {
+  width: 180px;
+  height: 70px;
+  margin: 10% 3% 5% 0;
+  font-weight: 500;
+}
+
+/* COLOURING SIMILAR SECTIONS */
+.dark-section {
+  background-color: #769abe;
+  color: #ffffff;
+}
+
+.light-section {
+  background-color: #f5f4f4;
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+  padding: 0 0 72px;
+  /* top left-right bottom (aligns navbar with other content)*/
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+  /* removes hover from navbar-brand*/
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-dark .nav-item .nav-link {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  /*changes the colour of the toggler-icon to white (using "stroke" property)*/
+  /*Bootstrap 4 uses SVG ('Scalable Vector Graphics' - uses data URI's to draw/scale small icons)
+  for the toggler icon and has pre-defined
+  classes for dark and light navbar */
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #ffffff;
+  /*changes the colour of the toggler border to white*/
+  margin-top: 20px;
+}
+
+/*FEATURE SECTION*/
+#features {
+  padding: 12% 10%;
+  position: relative;
+  z-index: 1;
+  /*places the features section on top of image */
+}
+
+.feature-title {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  line-height: 2;
+}
+
+.sub-heading {
+  color: #ffffff;
+  text-align: left;
+  line-height: 2;
+  margin-top: 20px;
+}
+
+.feature-box {
+  padding: 6%;
+  /*less writing on a line*/
+}
+
+.icon {
+  color: #f4cc70;
+  margin-bottom: 3rem;
+}
+
+.icon:hover {
+  color: #000000;
+}
+
+/*TESTIMONIAL SECTION*/
+#testimonials {
+  background-color: #0f3057;
+  padding: 7% 10%;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 15%;
+  margin: 30px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  line-height: 2;
+}
+
+#press {
+  padding: 8% 3% 8%;
+}
+
+.press-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.press-box {
+  padding: 4%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+  /*creates more space between the carousel items and carousel-buttons*/
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  /* changes colour of carousel buttons to white using "fill" */
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  width: 40px;
+  height: 40px;
+}
+
+/* PRICING SECTION*/
+#pricing {
+  padding: 100px;
+  padding: 12% 10%;
+}
+
+.section-heading {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 5% 3%;
+}
+
+.price-text {
+  font-size: 2.5rem;
+}
+
+.pricing-button {
+  font-weight: 500;
+}
+
+.card-header {
+  font-family: "Ubuntu";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #acd0c0;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  /* zoom in when you hover over each card */
+}
+
+/* CALL TO ACTION SECTION */
+#cta {
+  padding: 7% 10% 5%;
+}
+
+.cta-heading {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding-top: 90px;
+  line-height: 2;
+}
+
+.cta-download-button {
+  width: 180px;
+  height: 70px;
+  font-weight: 500;
+}
+
+.button-text {
+  font-size: bold;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #0f3057;
+  padding: 1% 10%;
+  color: #ffffff;
+}
+
+.social-icon {
+  margin: 100px 30px 50px;
+  font-size: 1.9rem;
+}
+
+/* MEDIA QUERY BREAKPOINTS - making design more responsive on mobile */
+
+@media (max-width: 600px) {
+  .playstore-button-2 {
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 500px) {
+  .playstore-button-1 {
+    margin-top: 3px;
+  }
+
+  .title-image {
+    width: 100%;
+    margin: auto auto 1.5rem;
+  }
+
+  .big-heading {
+    margin-top: 0.2rem;
+  }
+
+  .sub-heading {
+    margin-top: 0.2rem;
+  }
+}
+@media (max-width: 990px) {
+  /*when viewport is 990x or smaller - do this:*/
+  .navbar-dark .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  #title {
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 60px;
+    width: 50%;
+  }
+
+  .sub-heading {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  .copyright {
+    margin-bottom: 20%;
+  }
+
+  .card-header {
+    font-size: 1.2rem;
+  }
+  .press-logo {
+    padding: 0.3rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /*when viewport is 1200px or smaller - do this:*/
+  p {
+    font-size: 0.9rem;
+  }
+
+  .title-image {
+    padding-top: 2rem;
+  }
+  .navbar-brand {
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .navbar-dark .nav-item .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .download-button {
+    width: 150px;
+    height: 60px;
+    font-size: 0.85rem;
+  }
+
+  .carousel-control-prev-icon {
+    width: 25px;
+  }
+  .carousel-control-next-icon {
+    width: 25px;
+  }
+
+  .carousel-item {
+    padding: 5% 20%;
+  }
+
+  .cta-download-button {
+    width: 150px;
+    height: 60px;
+    font-size: 0.85rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .big-heading {
+    font-size: 2rem;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .cta-heading {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+  .section-heading {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .price-text {
+    font-size: 1.8rem;
+  }
+
+  .pricing-button {
+    font-size: 0.85rem;
+  }
+  .sub-heading {
+    font-size: 1rem;
+  }
+  .card-header {
+    font-size: 1.2rem;
+  }
+
+  .social-icon {
+    margin: 50px 10px 20px;
+    font-size: 1.3rem;
+  }
+}
